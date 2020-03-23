@@ -1,0 +1,26 @@
+footer{
+    background: rgb(34, 33, 33);
+    border-top: 2px solid rgb(175, 171, 171);
+    bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+footer ul li{
+    display: inline;
+    color: #7c7777;
+    font-size: 14px;
+    padding: 13px;
+}
+
+footer ul{
+    float: left;
+    padding: 1px;
+}
+
+footer ul a:hover{
+    color: red;
+    font-size: large;
+    transition-duration: 0.4s;
+}
