@@ -32,3 +32,11 @@ li.nav-link a:hover{
     text-decoration: underline;
     color: green;
 }
+
+#sign:hover{
+    box-shadow: 1px 1px 5px red;
+}
+
+#sign {
+    color: #ffff;
+}
