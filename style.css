@@ -1,6 +1,7 @@
 @import "style/header.css";
 @import "style/nav.css";
 @import "style/search-area.css";
+@import "style/footer.css" ;
 * {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
