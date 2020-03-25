@@ -5,7 +5,7 @@
     clear: both;
 }
 
-.search-box{                    /*search-box=form*/
+.search-box{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -13,7 +13,7 @@
     background: #2f3640;
     height: 40px;
     border-radius:40px;
-    padding: 10px;
+    padding: 0px;
 }
 
 .search-box:hover  #search-text{
