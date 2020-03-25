@@ -5,23 +5,54 @@
     clear: both;
 }
 
-.form{
-    text-align: center;
+.search-box{                    /*search-box=form*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius:40px;
+    padding: 10px;
 }
 
-#dark-search{
-    width: 450px;
-    line-height: 30px;
-    padding: 10px 10px;
-    border-radius: 10px;
+.search-box:hover  #search-text{
+    width: 240px;
+    padding: 0 6px;
 }
 
-#dark-search:hover{
-    border-color: red;
-    padding-top: 0;
-    transition-duration: 0.4s;
+.search-box:hover  .search-btn{
+    background: white;
 }
 
+.search-btn{
+    color: #e84118;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+#search-text{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width:0px;
+}
+
+/*
 .button{
     text-align: center;
     padding-top: 10px;
@@ -33,7 +64,9 @@
     transition-duration: 0.4s;
     cursor: pointer;
 }
+*/
 
+/*
 .click{
     background-color: white;
     color: black;
@@ -46,7 +79,7 @@
     color: white;
     font: bold;
 }
-
+*/
 .fright{
     float: right;
 }
