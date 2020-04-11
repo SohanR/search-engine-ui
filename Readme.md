@@ -1,11 +1,12 @@
 Search Engine Home page ui
 
-Search Bar befor Hover 
+Click [here](https://sohanr.github.io/search-engine-ui/) for live view this project.
+
+Search Bar befor Hover
 
 ![](https://raw.githubusercontent.com/SohanR/search-engine-ui/master/demo%201.jpg)
 
-
-Search Bar after Hover 
+Search Bar after Hover
 
 ![](https://raw.githubusercontent.com/SohanR/search-engine-ui/master/demo%202.png)
 
